@@ -1,0 +1,76 @@
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <shortcut
+        android:shortcutId="search"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_search_24"
+        android:shortcutShortLabel="@string/search"
+        android:shortcutLongLabel="@string/search"
+        android:shortcutDisabledMessage="@string/search">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.example.sklepzaliczenie"
+            android:targetClass="com.example.sklepzaliczenie.MainActivity"
+            android:data="search"/>
+        <!-- If your shortcut is associated with multiple intents, include them
+             here. The last intent in the list determines what the user sees when
+             they launch this shortcut. -->
+        <categories android:name="android.shortcut.conversation" />
+        <capability-binding android:key="actions.intent.CREATE_MESSAGE" />
+    </shortcut>
+    <shortcut
+        android:shortcutId="cart"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_shopping_cart_24"
+        android:shortcutShortLabel="@string/cart"
+        android:shortcutLongLabel="@string/cart"
+        android:shortcutDisabledMessage="@string/cart">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.example.sklepzaliczenie"
+            android:targetClass="com.example.sklepzaliczenie.MainActivity"
+            android:data="cart"/>
+        <!-- If your shortcut is associated with multiple intents, include them
+             here. The last intent in the list determines what the user sees when
+             they launch this shortcut. -->
+        <categories android:name="android.shortcut.conversation" />
+        <capability-binding android:key="actions.intent.CREATE_MESSAGE" />
+    </shortcut>
+    <shortcut
+        android:shortcutId="account"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_account_circle_24"
+        android:shortcutShortLabel="@string/account"
+        android:shortcutLongLabel="@string/account"
+        android:shortcutDisabledMessage="@string/account">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.example.sklepzaliczenie"
+            android:targetClass="com.example.sklepzaliczenie.MainActivity"
+            android:data="account"/>
+        <!-- If your shortcut is associated with multiple intents, include them
+             here. The last intent in the list determines what the user sees when
+             they launch this shortcut. -->
+        <categories android:name="android.shortcut.conversation" />
+        <capability-binding android:key="actions.intent.CREATE_MESSAGE" />
+    </shortcut>
+    <shortcut
+        android:shortcutId="settings"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_settings_24"
+        android:shortcutShortLabel="@string/settings"
+        android:shortcutLongLabel="@string/settings"
+        android:shortcutDisabledMessage="@string/settings">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.example.sklepzaliczenie"
+            android:targetClass="com.example.sklepzaliczenie.MainActivity"
+            android:data="settings"
+            />
+        <!-- If your shortcut is associated with multiple intents, include them
+             here. The last intent in the list determines what the user sees when
+             they launch this shortcut. -->
+        <categories android:name="android.shortcut.conversation" />
+        <capability-binding android:key="actions.intent.CREATE_MESSAGE" />
+    </shortcut>
+</shortcuts>

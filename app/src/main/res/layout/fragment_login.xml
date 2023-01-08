@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/input_account_name"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/input_user_type"
+        android:layout_below="@id/input_account_name"/>
+
+    <CheckBox
+        android:id="@+id/keep_logged_in_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/input_user_type"
+        android:text="pamiętaj mnie"/>
+
+    <Button
+        android:id="@+id/login_button_fragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/keep_logged_in_checkbox"
+        android:text="@string/login"/>
+
+
+
+</RelativeLayout>

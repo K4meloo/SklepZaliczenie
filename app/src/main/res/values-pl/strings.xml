@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sklep VR</string>
+    <string name="guest">gość</string>
+    <string name="welcome">Witaj</string>
+    <string name="home">Strona Główna</string>
+    <string name="cart">Koszyk</string>
+    <string name="account">Konto</string>
+    <string name="search">Szukaj</string>
+    <string name="settings">Ustawienia</string>
+    <string name="logout">Wyloguj</string>
+    <string name="login">Zaloguj</string>
+    <string name="register">Zarejestruj</string>
+    <string name="add_to_cart">Dodaj do koszyka</string>
+    <string name="checkout">Zamów</string>
+    <string name="clear_cart">Wyczyść koszyk</string>
+    <string name="enter_your_password">Podaj hasło</string>
+    <string name="enter_your_surname">podaj nazwisko</string>
+    <string name="enter_your_name">podaj imie</string>
+    <string name="enter_your_email">podaj email</string>
+    <string name="share">Udostępnij</string>
+</resources>
